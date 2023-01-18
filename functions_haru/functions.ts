@@ -25,4 +25,19 @@ const greet1=(person:Person)=>{
 }
 console.log(greet1(obj))
 
+//function with type
+type Person1={
+    name:string,
+    age:number
+}
+const greet2=(person:Person1)=>{
+    return 'Hello'+ person.name
+
+}
+console.log(greet2(obj))
+let a = (4)
+console.log(a)
+
+
+
 export {}

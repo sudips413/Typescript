@@ -6,7 +6,7 @@ import MyComponent from './component/MyComponent';
 
 function App() {
   return (
-    <MyComponent message="COUNTER"/>
+    <MyComponent Message={""} />
   );
 }
 

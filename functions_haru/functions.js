@@ -16,3 +16,9 @@ var greet1 = function (person) {
     return 'Hello' + person.name;
 };
 console.log(greet1(obj));
+var greet2 = function (person) {
+    return 'Hello' + person.name;
+};
+console.log(greet2(obj));
+var a = (4);
+console.log(a);
