@@ -1,12 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
-import MyComponent from './component/MyComponent';
+import MyComponent from './component/first/MyComponent';
+import Todo from './component/second/Test';
+
+
+
 
 function App() {
   return (
+    <>
     <MyComponent Message={""} />
+    <Todo/>
+    </>
   );
 }
 
